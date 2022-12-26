@@ -1,12 +1,19 @@
 import Header from "../components/Header";
+import Contacts from "../components/Contacts"
 
 export default function Home() {
   return (
     <>
       <Header />
-      <h1 className="text-red-600 text-4xl m-7 font-bold text-center">
-        Welcome to Hayatann's page!
-      </h1>
+      <div className="m-7 mx-16">
+        <h1 className="text-4xl font-black my-10">
+          Hayatann.com
+        </h1>
+        <div>
+          <Contacts/>
+        </div>
+      </div>
+      
     </>
   );
 }
